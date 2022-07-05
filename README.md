@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 This is a project based on the NEAR Blockchain. It is a decentralized networking platform, where people with similar interests can gather in communities to share ideas, thoughts and aspirations. People can join communities, read and vote on posts and even create their own communities. Try it for yourself!
 
@@ -217,4 +217,4 @@ Project Link: [https://github.com/Kapil-Mulay-1421/Whisper](https://github.com/K
 [license-url]: https://github.com/Kapil-Mulay-1421/Whisper/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/communityPage.png
