@@ -105,7 +105,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -128,12 +127,12 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-* Head over to [localhost:1234](http://localhost:1234).
-* Start by creating a community. On the nav bar, click Create a Community.
-* Enter a name and a description for your community, and submit.
-* Back on the home page, spot your community, which will take you to the community page.
-* Here, users can gather, chat, and post their ideas and thoughts. Try posting something.
-* You can also upvote posts. Users have the option to attach a little money alongside the upvote, which goes directly to the creator of that post.
+1. Head over to [localhost:1234](http://localhost:1234).
+2. Start by creating a community. On the nav bar, click Create a Community.
+3. Enter a name and a description for your community, and submit.
+4. Back on the home page, spot your community, which will take you to the community page.
+5. Here, users can gather, chat, and post their ideas and thoughts. Try posting something.
+6. You can also upvote posts. Users have the option to attach a little money alongside the upvote, which goes directly to the creator of that post.
 * You can do all this, and still retain your privacy on this decentralized networking platform.
 
 
