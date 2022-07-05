@@ -116,7 +116,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/Kapil-Mulay-1421/Whisper.git
    ```
-2. In the main directory, run
+2. Have nodemon installed
+   ```sh
+   npm install nodemon
+   ```
+3. In the main directory, run
    ```sh
    npm run dev
    ```
