@@ -97,6 +97,10 @@ This is a project based on the NEAR Blockchain. It is a decentralized networking
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## The Intent
+
+All of today's popular social media apps are centralized, and control all of their users' data. For doing absolutely anything on these apps, users have to share their emails, contact and even addresses in some cases. The intent of this project is to create an application that serves all the essential features of a social media app, but also helps you retain your privacy. With just one's NEAR account, one can become a user in this app, read and make posts, vote on posts, and create communities. It is also a way by which people can easily pay content-posters money, as tokens of appreciation. It is a project that intends to help people fearlessly bring their opinios to the forefront.
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
