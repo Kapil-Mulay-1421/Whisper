@@ -139,6 +139,18 @@ To get a local copy up and running follow these simple steps.
 6. You can also upvote posts. Users have the option to attach a little money alongside the upvote, which goes directly to the creator of that post.
 * You can do all this, and still retain your privacy on this decentralized networking platform.
 
+### Unit Tests
+* In the main directory, enter: 
+  ```sh
+  npm run test
+  ```
+
+### Build
+* In the main directory, enter: 
+  ```sh
+  npm run build
+  ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

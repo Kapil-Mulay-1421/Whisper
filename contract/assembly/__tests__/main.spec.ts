@@ -3,7 +3,6 @@ import * as contract from '..'
 const post = "The test post.";
 const community = "TestCommunity";
 const description = "Description for the test community."
-const voterAccount = "dappstest.testnet"
 
 describe('project', () => {
 
@@ -35,11 +34,11 @@ describe('project', () => {
     let voteSuccess: bool = false;
 
     // first time: should succeed
-    voteSuccess = contract.votePost(posts.length-1, voterAccount);
+    voteSuccess = contract.votePost(posts.length-1);
     expect(voteSuccess).toBe(true);
 
     // second time: should fail
-    voteSuccess = contract.votePost(posts.length-1, voterAccount);
+    voteSuccess = contract.votePost(posts.length-1);
     expect(voteSuccess).toBe(false);
   })
 
