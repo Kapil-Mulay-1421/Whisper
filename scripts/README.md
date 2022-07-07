@@ -27,3 +27,7 @@
     ./scripts/state.sh
     ```
 * You can do all this, and still retain your privacy on this decentralized networking platform.
+
+## Acknowledgements
+* [NCD.L1.sample--lottery](https://github.com/Learn-NEAR/NCD.L1.sample--lottery)
+* Rahul Mulay
