@@ -32,6 +32,7 @@ echo --------------------------------------------
 echo run the following commands
 echo
 echo 'export CONTRACT=__new_contract_account_id__'
+echo 'Enjoy Whisper!'
 echo
 echo
 
