@@ -11,7 +11,7 @@ echo --------------------------------------------
 echo
 echo "cleaning up the /neardev folder"
 echo
-rm -rf ./neardev
+rm -rf ./contract/neardev
 
 # exit on first error after this point to avoid redeploying with successful build
 set -e
