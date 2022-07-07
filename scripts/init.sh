@@ -3,7 +3,7 @@
 [ -z "$CONTRACT" ] && echo "Missing \$CONTRACT environment variable"
 [ -z "$ACCOUNT" ] && echo "Missing \$OWNER environment variable"
 
-echo "deleting $CONTRACT="
+echo "deleting $CONTRACT"
 echo
 near delete $CONTRACT $ACCOUNT
 
@@ -11,7 +11,7 @@ echo --------------------------------------------
 echo
 echo "cleaning up the /neardev folder"
 echo
-rm -rf ../neardev
+rm -rf ./neardev
 
 # exit on first error after this point to avoid redeploying with successful build
 set -e
@@ -26,7 +26,7 @@ echo --------------------------------------------
 echo
 echo "redeploying the contract"
 echo
-near dev-deploy ../contract/build/release/whisper.wasm
+near dev-deploy ./contract/build/release/whisper.wasm
 
 echo --------------------------------------------
 echo run the following commands
