@@ -50,7 +50,7 @@ const CommunityPage = () => {
             let donation = prompt("How much Near would you like to send to the maker of this post? Enter 0 if none.")
             if (typeof(donation*1) === 'number' && donation*1>=0 && donation*1<=safetyLimit) {
                 try{
-                    await window.contract.votePost({index: index, voter: window.accountId}, Big(3).times(10 ** 13).toFixed(), Big(donation.toString() || '0').times(10 ** 24).toFixed()).then((voted) => {
+                    await window.contract.votePost({index: index}, Big(3).times(10 ** 13).toFixed(), Big(donation.toString() || '0').times(10 ** 24).toFixed()).then((voted) => {
                         if (!voted) {
                             alert("Looks like you've already voted. Your account has been refunded.")
                         } else {    

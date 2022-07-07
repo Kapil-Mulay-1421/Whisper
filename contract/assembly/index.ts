@@ -102,9 +102,10 @@ export function createCommunity(name: string, description: string): void {
   descriptionList.push(description);
 }
 
-export function votePost(index: i32, voter: string): bool {
+export function votePost(index: i32): bool {
   assert(posts.containsIndex(index), "Post of given index does not exist.");
   let premium = Context.attachedDeposit
+  let voter = Context.sender;
   if (voted[index].includes(voter)) {
     ContractPromiseBatch.create(voter).transfer(premium)
     return false;
