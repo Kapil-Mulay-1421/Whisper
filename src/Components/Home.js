@@ -21,7 +21,7 @@ const Home = () => {
     <div style={{display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", columnGap: "30px", rowGap: "30px"}}>
     {communityList.map((community, index) => {
         return(
-            <div key={index} style={{backgroundColor: "rgb(41, 41, 41)", color: "white", minHeight: "50px", maxHeight: "300px", maxWidth: "300px", padding: "30px", borderRadius: "20px", cursor: "pointer"}} onClick={() => window.location.href="CommunityPage?community=" + community}>
+            <div key={index} style={{backgroundColor: "rgb(35, 35, 35)", color: "white", minHeight: "50px", maxHeight: "300px", maxWidth: "300px", padding: "30px", borderRadius: "20px", cursor: "pointer"}} onClick={() => window.location.href="CommunityPage?community=" + community}>
                 <h4 style={{userSelect: "none"}}>{community}</h4>
                 <p>{descriptionList[index]}</p>
             </div>
