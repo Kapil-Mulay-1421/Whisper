@@ -38,7 +38,7 @@
     <a href="https://github.com/Kapil-Mulay-1421/Whisper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Kapil-Mulay-1421/Whisper/loom_video_link.md">View Demo</a>
+    <a href="https://github.com/Kapil-Mulay-1421/Whisper/blob/master/loom_video_link.md">View Demo</a>
     ·
     <a href="https://github.com/Kapil-Mulay-1421/Whisper/issues">Report Bug</a>
     ·
